@@ -1,0 +1,10 @@
+<launch>
+    <node name="samples_generation" pkg="generate_cali_samples" type="generate_cali_samples" output="screen">
+    <param name="img_mode" value="0"/>
+    <param name="sample_mode" value="0"/>
+    <param name="overall_count_left" value="0"/>
+    <param name="overall_count_right" value="0"/>
+    <param name="overall_count" value="0"/>
+    <param name="record_interval" value="0.99"/>
+    </node>
+</launch>
